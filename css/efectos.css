@@ -1,0 +1,7 @@
+.box3 img:hover, .box4 img:hover{
+   transform: scale(1.05);
+   transition: .2s ease;
+}
+
+
+
