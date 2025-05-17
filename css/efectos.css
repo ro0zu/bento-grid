@@ -1,8 +1,12 @@
 .box1 h1:hover, .box1 h2:hover{
    transform: scale(1.05);
-   transition: 2s ease;
-   text-decoration: underline;
+   transition: .1s ease;
+   /* text-decoration: underline; */
    cursor: pointer;
+}
+
+.box1 h1:active, .box1 h2:active{
+   transform: scale(1.03);
 }
 
 .box3 img:hover, .box4 img:hover{
@@ -11,27 +15,42 @@
    cursor: pointer;
 }
 
+.box3 img:active, .box4 img:active{
+   transform: scale(1);
+}
+
 .box5 img:hover{
    transform: scale(1.02);
    transition: .2s ease;
    cursor: pointer;
 }
 
+.box5 img:active{
+   transform: scale(1);
+}
+
 .box2:hover, .box6:hover{
    outline: 4px solid #d6d342;
-   outline-offset: -12px;
+   outline-offset: -10px;
    transition: .2s ease;
    cursor: pointer;
 }
 
+.box2:active, .box6:active{
+   outline: 4px solid #d6d342;
+   outline-offset: -7px;
+   transition: .05s ease;
+   cursor: pointer;
+}
+
 .icons img:hover{
-    transform: translateY(-20px);
+    transform: translateY(-5px);
     transition: 0.2s ease;
     cursor: pointer;
 }
 
 .icons img:active{
-    transform: translate(10px , -20px);
+    transform: translate(3px , -5px);
     transition: 0.05s ease;
     cursor: pointer;
 }
