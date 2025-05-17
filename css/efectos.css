@@ -1,5 +1,32 @@
-.box3 img:hover, .box4 img:hover{
+.box1 h1:hover, .box1 h2:hover{
    transform: scale(1.05);
-   transition: .2s ease;
+   transition: 2s ease;
+   text-decoration: underline;
+   cursor: pointer;
 }
 
+.box3 img:hover, .box4 img:hover, .box5 img:hover{
+   transform: scale(1.02);
+   transition: .2s ease;
+   cursor: pointer;
+}
+
+
+.box2:hover, .box6:hover{
+   outline: 4px solid #d6d342;
+   outline-offset: -12px;
+   transition: .2s ease;
+   cursor: pointer;
+}
+
+.icons img:hover{
+    transform: translateY(-20px);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.icons img:active{
+    transform: translate(10px , -20px);
+    transition: 0.05s ease;
+    cursor: pointer;
+}

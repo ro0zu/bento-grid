@@ -1,5 +1,6 @@
 @media (max-width: 600px){
 
+    /*Cambio la disposición un ancho menor a 600px*/
     .contenedor{
         width: 100%;
         height: auto;
@@ -33,6 +34,10 @@
         grid-row: 3 / 4;
     }
 
+    /*Para que la imagen del logo no se corte y se pueda ver toda la imagen */
+    .box5 img{
+        object-fit: contain;
+    }
 
     .box6{
         grid-column: 1 / 3;

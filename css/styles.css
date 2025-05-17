@@ -194,14 +194,5 @@ button {
   border-radius: 20px;
 }
 
-.icons img:hover{
-    transform: translateY(-20px);
-    transition: 0.2s ease;
-}
-
-.icons img:active{
-    transform: translate(10px , -20px);
-    transition: 0.05s ease;
-}
 
 
