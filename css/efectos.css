@@ -5,12 +5,17 @@
    cursor: pointer;
 }
 
-.box3 img:hover, .box4 img:hover, .box5 img:hover{
-   transform: scale(1.02);
+.box3 img:hover, .box4 img:hover{
+   transform: scale(1.05);
    transition: .2s ease;
    cursor: pointer;
 }
 
+.box5 img:hover{
+   transform: scale(1.02);
+   transition: .2s ease;
+   cursor: pointer;
+}
 
 .box2:hover, .box6:hover{
    outline: 4px solid #d6d342;
