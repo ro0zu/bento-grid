@@ -245,13 +245,11 @@ button {
 .lightbox .close:active{
   transform: scale(1);
 }
-.lightbox .svg{}
-
 .lightbox .grande{
   width: 90%;
   max-width: 800px;
   height: 70vh;
-  background-color: #d6d342;
+  background-color: #2b3854;
   object-fit: contain; /*La imagen no se deforma y se adapta al contenedor*/
   /* box-shadow: 0 0 1rem 0 rgba(0,0,0,.4); */
 }

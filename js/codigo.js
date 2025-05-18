@@ -11,7 +11,7 @@ const closeBtn = document.querySelector('.close')
     // .grande le añadimos el atributo SRC de la img
 
 imgList.forEach (( eachBox, index )=>{
-    imgList[index].addEventListener('click', ()=>{
+    imgList[index].addEventListener('pointerdown', ()=>{
         lightbox.classList.add('isActive');
         grande.src = imgList[index].src;
     });
@@ -21,6 +21,6 @@ imgList.forEach (( eachBox, index )=>{
 // Cuando CLICK en .close
     // .lightbox se le REMOVE la clase isActive
 
-closeBtn.addEventListener('click', ()=>{
+closeBtn.addEventListener('pointerdown', ()=>{
     lightbox.classList.remove('isActive');
 });
